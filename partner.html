@@ -1,0 +1,40 @@
+<div class="sub-content1">
+    <div class="box1" ng-controller="partnerController" style="border:4px">
+        <div class="box1header">
+            {{store.name}} <i style="font-size:17px;" class="material-icons">edit</i>
+        </div>
+        <div class="box1body table-bodyfont">
+            <img class="image" src="http://res.cloudinary.com/poletalks/image/upload/v1472055369/Nitc_my3vig.jpg" />
+            <p>{{store.type}}</p>
+            <p>{{store.formatted_address1}}</p>
+            <p>{{store.formatted_address2}}</p>
+            <p ng-bind="store.description"></p>
+        </div>
+    </div>
+    <div class="box2" id="MyGmaps">
+    </div>
+</div><br />
+<div class="sub-content2">
+    <div class="box3"><br /><br />
+        <table cellspacing="0">
+            <thead class="table-header table-headfont">
+                <tr>
+                    <td>ADMIN</td>
+                    <td>TYPE</td>
+                    <td>NAME</td>
+                    <td>SHORT NAME</td>
+                    <td>ACTIONS</td>
+                </tr>
+            </thead >
+            <tbody class="table-bodyfont" ng-controller="partnerController">
+                    <tr ng-repeat="x in inf">
+                        <td>{{ x.admin }}</td>
+                        <td>{{ x.type }}</td>
+                        <td>{{ x.name }}</td>
+                        <td>{{ x.shortname }}</td>
+                        <td>{{ x.actions }}</td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

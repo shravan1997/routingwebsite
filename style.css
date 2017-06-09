@@ -1,0 +1,10 @@
+﻿//<reference path=" C:\Users\shravan\Desktop\web tutorials\angular js\project\PoleTalks Juliana\partner.html "/>
+.container {height: 100%;width: 100%;position: relative;background: red;display: block;}
+table{min-height:150px;min-width:100%;}
+img {height: 65px;width: 65px;float: right;border-radius: 50%;padding-bottom: 14%;}
+.font-decor{font-size:20px;font-weight:lighter;font-family:Arial;}
+div{font-family:Arial;}
+.table-header {background: #E9D7D7;color: #A66D6D;padding: 5%;margin: 5%;position: relative;display: table-header-group;border: none;}
+.header {background: #e54343;color: white;padding-left: 2%;height: 10%;width: auto;position: relative;display: block;padding-top: 2%;}
+a{color:white;text-decoration:none;}
+.content{width:auto%;background:grey;display:block;padding:1.5%;margin:0;}

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+    <script src="module.js"></script>
+    <script src="route.js"></script>
+    <script src="controller.js"></script>
+    <script src="script.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="box.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body onload="LoadGmaps()" itemscope itemtype="http://schema.org/WebPage" style="overflow-x: hidden;overflow-y: scroll;" >
+    <div class="container">
+        <div class="header font-decor">
+            Pole - Admin Panel<br />
+        </div>
+        <div class="navigation-bar">
+            <a href="#/sparks" class="button">SPARKS</a>
+            <a href="#/users" class="button">USERS</a>
+            <a href="#/notifications" class="button">NOTIFICATIONS</a>
+            <a href="#/scheduling" class="button">SCHEDULING</a>
+            <a href="#/partner" class="button">PARTNERS</a>
+            <a href="#/events" class="button">EVENTS</a>
+            <a href="#/admins" class="button">ADMINS</a>
+            <br /><br />
+        </div>
+        <div class="content" ng-app="myModule">
+            <ng-view></ng-view>
+        </div>
+    </div>
+</body>
+</html>

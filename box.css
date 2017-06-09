@@ -1,0 +1,109 @@
+﻿
+@media screen and (min-width: 451px)
+{
+    .box1 { background: green; width: auto;display: inline-flex;flex:0.55;margin: 1%;flex-wrap: wrap;border:0px;}
+    #MyGmaps {min-height: 157px;}
+    td {padding: 15px;border:none}
+    .table-bodyfont {font-weight: 600;font-size: 12px;}
+    .table-headfont {font-size: 15px;font-weight: 600;font-family: Arial; }
+    .box1header {background: #E9D7D7;display: inline-block;width: 100%; padding: 2%;position: relative;color: #A66D6D;font-weight: 700;}
+    .box1body {background: white; display: inline-block;border:inherit; padding: 2%;width: 100%;position: relative;}
+    .box2 {background: ;width: auto;margin: 1%;display: inline-flex;flex-wrap: wrap; flex: 0.45; padding: 2%; }
+    .box3 {background: white; padding-left: 2%; padding-right:2%;display: inline-flex; width: auto; min-width:96%;flex-wrap: wrap;}
+    .sub-content1 {
+        width: 96%;
+        min-height: 45%;
+        color: black;
+        background: white;
+        display: inline-flex;
+        position: relative;
+        padding: 2%;
+        flex: 1;
+    }
+
+    .sub-content2 {
+        width: auto;
+        min-height: 49%;
+        position: relative;
+        display: block;
+        background: white;
+        overflow-x: scroll;
+    }
+    .navigation-bar {
+        background: #e54343;
+        color: white;
+        height: 10%;
+        width: 98%;
+        display: inline-flex;
+        padding-left: 2%;
+        padding-top: 2%;
+        position: relative;
+        flex-wrap: wrap;
+    }
+     .header {background: #e54343;color: white;padding-left: 2%;height: 10%;width: auto;position: relative;display: block;padding-top: 2%;}
+    .button {
+        display: inline;
+        padding: 2%;
+        font-size: 13px;
+        font-weight: 500;
+        font-family: Arial;
+    }
+}
+@media screen and (max-width:450px)
+{
+    .box1 {background: green;width: auto; display: block;flex: 1; margin: 0%;flex-wrap: wrap;border:2px;}
+    .box2 {background: ; margin: 1%;display: block;flex-wrap: wrap;flex: 0;padding: 2%;}
+    .box1header {background: #E9D7D7;display: block;padding: 2%;position: relative; color: #A66D6D;font-weight: 700;}
+    td {padding: 5px;}
+    .table-bodyfont {font-weight: 500;font-size: 11px;}
+    .table-headfont {font-size: 13px;font-weight: 500;font-family: Arial; }
+    .box1body {background: white;display: block;padding: 2%;position: relative;}
+    #MyGmaps {min-height: 150px; min-width:150px;}
+    .box3 {background: white;padding-left: 0%;display: block;  flex-wrap: wrap;overflow-x: scroll; }
+    .sub-content1 {
+        width: 98%;
+        min-height: 55%;
+        color: black;
+        background: white;
+        display: block;
+        position: relative;
+        padding:1%;
+        flex-wrap: wrap;
+        flex: 1;
+    }
+
+    .sub-content2 {
+        padding-top:2%;
+        min-height: 55%;
+        position: relative;
+        display: block;
+        background: white;
+
+    }
+    .navigation-bar {
+        background: #e54343;
+        color: white;
+        height: 10%;
+        width: 98%;
+        display: inline-flex;
+        padding-left: 2%;
+        padding-top: 2%;
+        position: relative;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .header {background: #e54343;color: white;padding-left: 2%;height: 10%;width: auto;position: relative;display: block;padding-top: 2%;}
+    a{text-align: center;}
+    .button {
+        display: inline-flex;
+        padding: 3%;
+        font-size: 13px;
+        align-content: center;
+        font-weight: 500;
+        font-family: Arial;
+        text-align:center;
+        width:100%;
+        position: relative;
+        background: ;
+    }
+}
